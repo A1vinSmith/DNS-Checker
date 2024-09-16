@@ -50,7 +50,7 @@ def check_record_type(name_server_ip, domain, record_type):
         print(f"{Colors.FAIL}Timeout querying {name_server_ip} for {record_type} records.{Colors.ENDC}")
     except dns.exception.DNSException as e:
         print(f"{Colors.FAIL}DNS exception querying {name_server_ip} for {record_type} records: {e}{Colors.ENDC}")
-    return False
+    return False # Potential vulnerable when return false
 
 def run_dig_command(name_server_ip, domain, record_type, log_file):
     command = f"dig @{name_server_ip} {domain} {record_type}"

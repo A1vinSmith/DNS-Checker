@@ -1,12 +1,65 @@
 import sys
+import os
+import json
 import requests
 import dns.resolver
 from colorama import Fore, Style, init
+from datetime import datetime, timedelta
+import re
 
 # Initialize Colorama
 init(autoreset=True)
 
+CACHE_EXPIRY_DAYS = 1  # Cache expiry duration in days
+
+def get_cache_filename(domain):
+    """Generate a unique cache filename based on the domain."""
+    return f"{domain.replace('.', '_')}_cache.json"
+
+def is_valid_domain(domain):
+    """Check if the provided domain is valid."""
+    return re.match(r'^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$', domain) is not None
+
+def read_cache(cache_file):
+    """Read the cached data if it is still valid."""
+    if not os.path.exists(cache_file):
+        return None
+
+    try:
+        with open(cache_file, 'r') as f:
+            cache_data = json.load(f)
+        
+        # Check cache expiry
+        cache_time = datetime.fromisoformat(cache_data['timestamp'])
+        if datetime.now() - cache_time < timedelta(days=CACHE_EXPIRY_DAYS):
+            return cache_data['subdomains']
+        else:
+            return None
+    except (json.JSONDecodeError, KeyError, ValueError):
+        return None
+
+def write_cache(cache_file, subdomains):
+    """Write the data to cache file."""
+    cache_data = {
+        'timestamp': datetime.now().isoformat(),
+        'subdomains': subdomains
+    }
+    with open(cache_file, 'w') as f:
+        json.dump(cache_data, f)
+
 def get_subdomains(domain):
+    if not is_valid_domain(domain):
+        print(f"{Fore.RED}Invalid domain format.{Style.RESET_ALL}")
+        return []
+
+    cache_file = get_cache_filename(domain)
+    
+    # Attempt to read from cache
+    cached_data = read_cache(cache_file)
+    if cached_data:
+        print(f"{Fore.YELLOW}Using cached data.{Style.RESET_ALL}")
+        return cached_data
+    
     try:
         # Use crt.sh to get subdomains
         url = f'https://crt.sh/?q={domain}&output=json'
@@ -19,9 +72,20 @@ def get_subdomains(domain):
             if 'name_value' in entry:
                 subdomains.add(entry['name_value'])
         
+        # Cache the new data
+        write_cache(cache_file, list(subdomains))
+        
         return list(subdomains)
-    except Exception as e:
-        print(f"{Fore.RED}Error fetching subdomains: {e}{Style.RESET_ALL}")
+    except requests.RequestException as e:
+        print(f"{Fore.RED}Network error: {e}{Style.RESET_ALL}")
+        # Return cached data if available
+        cached_data = read_cache(cache_file)
+        if cached_data:
+            print(f"{Fore.YELLOW}Using cached data due to network error.{Style.RESET_ALL}")
+            return cached_data
+        return []
+    except ValueError as e:
+        print(f"{Fore.RED}Error parsing JSON response: {e}{Style.RESET_ALL}")
         return []
 
 def check_dangling_dns(subdomain):

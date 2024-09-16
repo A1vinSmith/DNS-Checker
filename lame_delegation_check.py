@@ -66,8 +66,9 @@ def check_lame_delegation(domain):
     record_types = ['A', 'AAAA', 'MX', 'NS', 'TXT']  # List of record types to check
 
     # Create a timestamped filename for logging
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_filename = f"{domain}_{timestamp}.txt"
+    # timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    # log_filename = f"{domain}_{timestamp}.txt"
+    log_filename = f"{domain}.txt"
 
     try:
         # Get the list of name servers for the domain
@@ -108,6 +109,29 @@ def check_lame_delegation(domain):
 
     except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN) as e:
         print(f"{Colors.FAIL}Error resolving {domain}: {e}{Colors.ENDC}")
+
+    # Check log file contents after processing
+    return check_log_file(log_filename)
+
+def check_log_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            content = file.read().strip()
+
+        if not content:
+            print(f"{Colors.WARNING}Log file {filename} is empty which is good.{Colors.ENDC}")
+            return False
+
+        brief_info = content.split('\n')[:5]  # Adjust this to get the first few lines or any other summary
+        print(f"{Colors.OKGREEN}Log file contains the following information:{Colors.ENDC}")
+        for line in brief_info:
+            print(line)
+
+        return True # Or json.dumps(brief_info, indent=4)
+
+    except FileNotFoundError:
+        print(f"{Colors.FAIL}Log file {filename} not found.{Colors.ENDC}")
+        return False
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Check for lame delegation of a domain.")

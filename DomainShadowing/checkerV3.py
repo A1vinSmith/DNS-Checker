@@ -37,7 +37,7 @@ def read_cache(cache_file):
         # Check cache expiry
         cache_time = datetime.fromisoformat(cache_data['timestamp'])
         if datetime.now() - cache_time < timedelta(days=CACHE_EXPIRY_DAYS):
-            return cache_data['subdomains']
+            return set(cache_data['subdomains'])  # Convert to set
         else:
             return None
     except (json.JSONDecodeError, KeyError, ValueError):
@@ -47,7 +47,7 @@ def write_cache(cache_file, subdomains):
     """Write the data to cache file."""
     cache_data = {
         'timestamp': datetime.now().isoformat(),
-        'subdomains': list(subdomains)
+        'subdomains': list(subdomains)  # Convert to list
     }
     os.makedirs(os.path.dirname(cache_file), exist_ok=True)  # Ensure cache directory exists
     with open(cache_file, 'w') as f:
@@ -65,7 +65,7 @@ def fetch_subdomains_from_crtsh(domain):
     # Attempt to read from cache
     cached_data = read_cache(cache_file)
     if cached_data:
-        print(f"{Colors.YELLOW}Using cached data.{Colors.ENDC}")
+        print(f"{Colors.WARNING}Using cached data.{Colors.ENDC}")
         return cached_data
 
     # Fetch from crt.sh
@@ -78,7 +78,7 @@ def fetch_subdomains_from_crtsh(domain):
         for cert in certificates:
             names = cert['name_value'].split('\n')
             for name in names:
-                if name:
+                if name and name.endswith(f".{domain}"):
                     subdomains.add(name.strip())
         
         # Write fetched data to cache
@@ -178,41 +178,40 @@ def detect_domain_shadowing(target_domain, subdomains_file):
             print(f"{Colors.HEADER}Checking for domain shadowing for target domain: {target_domain}{Colors.ENDC}")
 
             for subdomain in all_subdomains:
-                test_domain = f"{subdomain}.{target_domain}"
-                print(f"{Colors.OKBLUE}Checking domain: {test_domain}{Colors.ENDC}")
+                print(f"{Colors.OKBLUE}Checking domain: {subdomain}{Colors.ENDC}")
                 
-                if is_domain_registered(test_domain):
-                    print(f"{Colors.WARNING}Domain {test_domain} is registered.{Colors.ENDC}")
+                if is_domain_registered(subdomain):
+                    print(f"{Colors.WARNING}Domain {subdomain} is registered.{Colors.ENDC}")
                     
-                    if check_domain_dns(test_domain):
-                        print(f"{Colors.OKGREEN}Domain {test_domain} has DNS records.{Colors.ENDC}")
+                    if check_domain_dns(subdomain):
+                        print(f"{Colors.OKGREEN}Domain {subdomain} has DNS records.{Colors.ENDC}")
                         
                         # Check nameservers
-                        ns_records = check_nameservers(test_domain)
+                        ns_records = check_nameservers(subdomain)
                         if ns_records:
-                            print(f"{Colors.WARNING}Domain {test_domain} has nameservers: {', '.join(ns_records)}.{Colors.ENDC}")
+                            print(f"{Colors.WARNING}Domain {subdomain} has nameservers: {', '.join(ns_records)}.{Colors.ENDC}")
                             # Log domains with both DNS records and nameservers
-                            dns_and_ns_log_file.write(f"{test_domain} has DNS records and nameservers: {', '.join(ns_records)}\n")
+                            dns_and_ns_log_file.write(f"{subdomain} has DNS records and nameservers: {', '.join(ns_records)}\n")
                             # Log domains with nameservers
-                            ns_log_file.write(f"{test_domain} has nameservers: {', '.join(ns_records)}\n")
+                            ns_log_file.write(f"{subdomain} has nameservers: {', '.join(ns_records)}\n")
                         else:
-                            print(f"{Colors.OKGREEN}Domain {test_domain} has no associated nameservers, thus not vulnerable to domain shadowing.{Colors.ENDC}")
+                            print(f"{Colors.OKGREEN}Domain {subdomain} has no associated nameservers, thus not vulnerable to domain shadowing.{Colors.ENDC}")
                             # Log domains with DNS records but no nameservers
-                            dns_only_log_file.write(f"{test_domain} has DNS records but no nameservers.\n")
+                            dns_only_log_file.write(f"{subdomain} has DNS records but no nameservers.\n")
                     
                     else:
-                        print(f"{Colors.FAIL}Domain {test_domain} does not have DNS records.{Colors.ENDC}")
+                        print(f"{Colors.FAIL}Domain {subdomain} does not have DNS records.{Colors.ENDC}")
                         # Log in the main log file if it has nameservers but no DNS records
-                        ns_records = check_nameservers(test_domain)
+                        ns_records = check_nameservers(subdomain)
                         if ns_records:
-                            log_file.write(f"{test_domain} has nameservers but no DNS records.\n")
+                            log_file.write(f"{subdomain} has nameservers but no DNS records.\n")
                             # Log domains with nameservers
-                            ns_log_file.write(f"{test_domain} has nameservers: {', '.join(ns_records)}\n")
+                            ns_log_file.write(f"{subdomain} has nameservers: {', '.join(ns_records)}\n")
                     
                     # Run `dig` commands for detailed output
-                    run_dig_command(test_domain, 'A', log_file)
+                    run_dig_command(subdomain, 'A', log_file)
                 else:
-                    print(f"{Colors.WARNING}Domain {test_domain} is not registered.{Colors.ENDC}")
+                    print(f"{Colors.WARNING}Domain {subdomain} is not registered.{Colors.ENDC}")
 
     except Exception as e:
         print(f"{Colors.FAIL}Error: {e}{Colors.ENDC}")

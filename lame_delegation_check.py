@@ -112,6 +112,7 @@ def check_lame_delegation(domain):
         print(f"{Colors.FAIL}Error resolving {domain}: {e}{Colors.ENDC}")
 
     # Check log file contents after processing
+    # Trigger the alert if a pontential issue has been found
     return check_log_file(log_filename)
 
 def check_log_file(filename):
@@ -124,7 +125,7 @@ def check_log_file(filename):
             return False
 
         brief_info = content.split('\n')[:5]  # Adjust this to get the first few lines or any other summary
-        print(f"{Colors.OKGREEN}Log file contains the following information:{Colors.ENDC}")
+        print(f"LameDelegation: {Colors.OKGREEN}Log file contains the following information:{Colors.ENDC}")
         for line in brief_info:
             print(line)
 

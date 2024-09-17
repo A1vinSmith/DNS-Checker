@@ -1,0 +1,624 @@
+Domain 'syscoapi.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 2 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'cnzlad1.coretex.com
+www.cnzlad1.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'onex.coretex.com
+www.onex.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain '*.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'dvir.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'www.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pd-construction.coretex.com
+pd-eld.coretex.com
+pd-eld-odfl.coretex.com
+pd-fleet-insights.coretex.com
+pd-jwf.coretex.com
+pd-rd.coretex.com
+pd-waste.coretex.com
+usc-jwf.coretex.com
+uscpp-jwf.coretex.com
+zapq6rzk32u9ev552cc4i2j7vm93k7e.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'cnzlad1.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pd-construction.coretex.com
+pd-eld.coretex.com
+pd-eld-odfl.coretex.com
+pd-fleet-insights.coretex.com
+pd-jwf.coretex.com
+pd-rd.coretex.com
+pd-waste.coretex.com
+uscpp-jwf.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'email.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'eld-na.coretex.com
+eld-odfl.coretex.com
+jwf.coretex.com
+reefer-na.coretex.com
+zapq6rzk32u9ev552cc4i2j7vm93k7e.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'portal.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'eld-odfl.coretex.com
+zapq6rzk32u9ev552cc4i2j7vm93k7e.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'passbolt.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'device-manager.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'master-data.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'www.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'isuzu.coretex.com
+www.isuzu.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pd-rd.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pd-eld.coretex.com
+pd-rd.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 1 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'dvir.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pdau-jwf.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'coretex.com
+www.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'cloud.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'cloud.coretex.com
+soap-api-qa.cloud.coretex.com
+www.cloud.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'coretemp.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'alvin.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'system-sync.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'auth.services.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'eld-odfl.coretex.com
+jwf.coretex.com
+zapq6rzk32u9ev552cc4i2j7vm93k7e.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pd-construction.coretex.com
+pd-eld.coretex.com
+pd-eld-odfl.coretex.com
+pd-fleet-insights.coretex.com
+pd-jwf.coretex.com
+pd-rd.coretex.com
+pd-waste.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'cloud.coretex.com
+www.cloud.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 0 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!
+          ____              __   _____                      _ __
+         / __ \__  ______  / /__/ ___/___  _______  _______(_) /___  __
+        / /_/ / / / / __ \/ //_/\__ \/ _ \/ ___/ / / / ___/ / __/ / / /
+       / ____/ /_/ / / / / ,<  ___/ /  __/ /__/ /_/ / /  / / /_/ /_/ /
+      /_/    \__,_/_/ /_/_/|_|/____/\___/\___/\__,_/_/  /_/\__/\__, /
+                                             PRESENTS         /____/
+                              DNS Reaper ☠️
+
+             Scan all your DNS records for subdomain takeovers!
+
+Domain 'pd-eld.coretex.com
+pd-eld-odfl.coretex.com
+pd-jwf.coretex.com
+pd-rd.coretex.com' provided on commandline
+Testing with 61 signatures
+
+
+We found 4 takeovers ☠️
+
+⏱️  We completed in 2.02 seconds
+...Thats all folks!

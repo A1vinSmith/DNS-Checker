@@ -77,13 +77,20 @@ def run_dig_command(domain, record_type, log_file):
 
 def detect_domain_shadowing(target_domain, subdomains):
     # Create timestamp for filenames
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    # timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Define filenames for the logs
+    log_filename = f"{target_domain}+.txt"
+    dns_and_ns_log_filename = f"{target_domain}+dns_and_ns.txt"
+    ns_log_filename = f"{target_domain}+ns.txt"
+    dns_only_log_filename = f"{target_domain}+dns_only.txt"
+
+    '''
     log_filename = f"{target_domain}+log+{timestamp}.txt"
     dns_and_ns_log_filename = f"{target_domain}+dns_and_ns+{timestamp}.txt"
     ns_log_filename = f"{target_domain}+ns+{timestamp}.txt"
     dns_only_log_filename = f"{target_domain}+dns_only+{timestamp}.txt"
+    '''
 
     try:
         # Open the log files
@@ -132,6 +139,29 @@ def detect_domain_shadowing(target_domain, subdomains):
 
     except Exception as e:
         print(f"{Colors.FAIL}Error: {e}{Colors.ENDC}")
+
+    # Trigger the alert if a pontential issue has been found
+    check_log_file(ns_log_filename)
+
+def check_log_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            content = file.read().strip()
+
+        if not content:
+            print(f"{Colors.WARNING}Log file {filename} is empty which is good.{Colors.ENDC}")
+            return False
+
+        brief_info = content.split('\n')[:5]  # Adjust this to get the first few lines or any other summary
+        print(f"Attention! {Colors.OKGREEN}Log file contains the following information:{Colors.ENDC}")
+        for line in brief_info:
+            print(line)
+
+        return True # Or json.dumps(brief_info, indent=4)
+
+    except FileNotFoundError:
+        print(f"{Colors.FAIL}Log file {filename} not found.{Colors.ENDC}")
+        return False
 
 
 if __name__ == "__main__":

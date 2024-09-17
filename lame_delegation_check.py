@@ -46,6 +46,7 @@ def check_record_type(name_server_ip, domain, record_type):
                 return True
         else:
             print(f"{Colors.FAIL}{name_server_ip} returned error code {response.rcode()} for {record_type} records.{Colors.ENDC}")
+            return False # status: REFUSED, SERVFAIL or flag 'rd ra' will be count as fail
     except dns.exception.Timeout:
         print(f"{Colors.FAIL}Timeout querying {name_server_ip} for {record_type} records.{Colors.ENDC}")
     except dns.exception.DNSException as e:
